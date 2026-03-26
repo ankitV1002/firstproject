@@ -1,0 +1,214 @@
+.iw-products {
+    padding: 164px 0 100px;
+    background: var(--white);
+    overflow: hidden;
+}
+.iw-products__inner .iw-section__header{
+    gap: 32px;
+}
+.iw-products__tabs {
+    display: flex;
+    background: #eaeaea;
+    border-radius: 40px;
+}
+.iw-section__header > * {
+  flex: 1;
+}
+.iw-section__header .iw-section__titletext{
+    text-align: left;
+}
+.iw-tab {
+    padding: 18px 48px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    flex: 1 auto;
+    text-decoration: unset;
+    color: var(--theme-dark);
+    text-align: center;
+}
+.iw-tab.active {
+    background: var(--primary);
+    color: #fff;
+    border-radius: 30px;
+}
+.iw-product__card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.iw-product-card__image{
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+}
+.iw-product-card__image img {
+    width: 100%;
+    background-color: #F2F2F2;
+    border-radius: 24px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.iw-product__price {
+    margin: 12px 0 0px;
+    display: flex;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: auto;
+}
+.iw-product__price .old {
+    text-decoration: line-through;
+    color: #292D30;
+    font-weight: 400;
+    font-size: 18px;
+}
+.iw-product__btn {
+    border: 1px solid var(--theme-dark);
+    background-color: transparent;
+    color: var(--theme-dark);
+    padding: 15px 44px;
+    font-size: 16px;
+    gap: 8px;
+    margin-top: 23px;
+}
+.iw-product__btn .iw-button__icon svg{
+    width: 18px;
+    height: 14px;
+}
+.iw-product-absolute__rebin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99px;
+    height: 89px;
+}
+.iw-product-absolute__rebin img{
+    border-radius: 0;
+    background-color: transparent;
+    object-fit: contain;
+}
+.iw-product__name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.iw-product__name > *{
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+.iw-product-sale__tag{
+    text-transform: uppercase;
+    color: var(--price-tag);
+    background-color: var(--price-tag-bg);
+    padding: 6px 16px;
+    border-radius: 12px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.iw-products__tab{
+    display:none;
+    position: relative;
+}
+
+.iw-products__tab.active{
+    display:block;
+}
+.iw-products__footer{
+    max-width: 424px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+.iw-products__footer .iw-products__guarantee{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theme-dark);
+}
+.iw-products__guarantee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.iw-products__guarantee__icon{
+    width: 26px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iw-products-slider .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.product-slider__list{
+    position: relative;
+}
+.iw-products-slide .swiper-wrapper{padding-bottom: 1px;}
+.iw-product__btn .btn-fill{
+    background-color: var(--primary);
+}
+.iw-product__btn:hover{
+    color: var(--white);
+}
+.iw-product__card:hover .iw-product-card__image img {
+    transform: scale(1.1);
+}
+.iw-product__card:hover .iw-product-absolute__rebin img {
+    transform: scale(1);
+}
+@media screen and (max-width: 1199px) {
+    .iw-tab{padding: 14px 24px;font-size: 14px;}
+    .iw-products{padding: 64px 0px 60px;}
+}
+@media screen and (max-width: 1023px){
+    .iw-section__header{flex-wrap: wrap;}
+    .iw-section__header > *{flex: unset;width: 100%;}
+    .iw-products .swiper-button-next,.iw-products  .swiper-button-prev{top: 40% !important;}
+    .iw-tab{padding: 14px 23px;}
+    .iw__rating .iw-rating__star > *{width: 14px;height: 14px;}
+    .iw__rating{justify-content: center;}
+    .iw-product__price {justify-content: center;}
+    .iw-product__card{text-align: center;}
+    .iw-product__btn{padding: 16px 44px;}
+}
+
+@media screen and (max-width: 749px){
+    .iw-products{padding: 64px 0px;}
+    .iw-product-absolute__rebin{width: 51px;height: 51px;}
+    .swiper-button-next, .swiper-button-prev{width: 32px;height: 32px;top: 28% !important;}
+    .swiper-button-next{right: -15px !important;}
+    .swiper-button-prev{left: -15px !important;}
+    .iw-section__header{margin-bottom: 32px;}
+    .iw-products__footer{margin-top: 32px;}
+    .iw-products__footer .iw-products__guarantee{font-size: 12px;}
+    .iw-tab{padding: 14px 14px;font-size: 11px;white-space: nowrap;text-align: center;}
+    .iw-products__inner .iw-section__header{gap: 24px;}
+    .iw-product__name{margin-top: 16px;font-size: 14px;padding: 0px 24px;}
+    .iw-product__btn{font-size: 14px;padding: 10px 12px;margin-top: 16px;}
+    .iw-button__primary .iw-button__icon{width: 16px;height: 16px;}
+    .iw-products__footer .iw-button__primary{font-size: 16px;}
+    .iw-products__inner .iw-section__header .iw-section-heading{margin: 0 auto; text-align: center;}
+    .iw-products__inner .iw-section__header .iw-section-heading > *{max-width: 190px;margin: 0 auto 8px;}
+    .iw-products__inner .iw-section__header .iw-section-heading .iw-header__content{max-width: unset;}
+    .iw-product__price {font-size: 14px;justify-content: center;padding: 0px 24px;}
+    .iw-product__price .old{font-size: 12px;}
+    .iw__rating{font-size: 12px;justify-content: center;padding: 0px 24px;}
+    .iw-product__btn{padding: 9px 12px;border-radius: 100px;}
+    .iw-product-sale__tag{font-size: 8px;padding: 4px 8px;top: 12px;right: 12px;}
+    .iw-products__tabs{overflow-x: auto;}
+    .iw-product-card__image img{border-radius: 12px;}
+    .iw-product__details .iw-section__header .iw-section-heading > *{max-width: unset;margin: 0 auto;}
+    .iw-product__details .iw-section__header .iw-section-heading .iw-header__content{max-width: unset;}
+    .swiper-button-next > *, .swiper-button-prev > *{width: 20px !important;height: 20px !important;}
+}

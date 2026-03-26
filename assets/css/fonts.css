@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-Black.eot');
+    src: url('../font/Gelica-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-Black.woff2') format('woff2'),
+        url('../font/Gelica-Black.woff') format('woff'),
+        url('../font/Gelica-Black.ttf') format('truetype'),
+        url('../font/Gelica-Black.svg#Gelica-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-BoldItalic.eot');
+    src: url('../font/Gelica-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-BoldItalic.woff2') format('woff2'),
+        url('../font/Gelica-BoldItalic.woff') format('woff'),
+        url('../font/Gelica-BoldItalic.ttf') format('truetype'),
+        url('../font/Gelica-BoldItalic.svg#Gelica-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-BlackItalic.eot');
+    src: url('../font/Gelica-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-BlackItalic.woff2') format('woff2'),
+        url('../font/Gelica-BlackItalic.woff') format('woff'),
+        url('../font/Gelica-BlackItalic.ttf') format('truetype'),
+        url('../font/Gelica-BlackItalic.svg#Gelica-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-Bold.eot');
+    src: url('../font/Gelica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-Bold.woff2') format('woff2'),
+        url('../font/Gelica-Bold.woff') format('woff'),
+        url('../font/Gelica-Bold.ttf') format('truetype'),
+        url('../font/Gelica-Bold.svg#Gelica-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-ExtraLightItalic.eot');
+    src: url('../font/Gelica-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/Gelica-ExtraLightItalic.woff') format('woff'),
+        url('../font/Gelica-ExtraLightItalic.ttf') format('truetype'),
+        url('../font/Gelica-ExtraLightItalic.svg#Gelica-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-ExtraLight.eot');
+    src: url('../font/Gelica-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-ExtraLight.woff2') format('woff2'),
+        url('../font/Gelica-ExtraLight.woff') format('woff'),
+        url('../font/Gelica-ExtraLight.ttf') format('truetype'),
+        url('../font/Gelica-ExtraLight.svg#Gelica-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-LightItalic.eot');
+    src: url('../font/Gelica-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-LightItalic.woff2') format('woff2'),
+        url('../font/Gelica-LightItalic.woff') format('woff'),
+        url('../font/Gelica-LightItalic.ttf') format('truetype'),
+        url('../font/Gelica-LightItalic.svg#Gelica-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-Italic.eot');
+    src: url('../font/Gelica-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-Italic.woff2') format('woff2'),
+        url('../font/Gelica-Italic.woff') format('woff'),
+        url('../font/Gelica-Italic.ttf') format('truetype'),
+        url('../font/Gelica-Italic.svg#Gelica-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-Light.eot');
+    src: url('../font/Gelica-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-Light.woff2') format('woff2'),
+        url('../font/Gelica-Light.woff') format('woff'),
+        url('../font/Gelica-Light.ttf') format('truetype'),
+        url('../font/Gelica-Light.svg#Gelica-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-MediumItalic.eot');
+    src: url('../font/Gelica-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-MediumItalic.woff2') format('woff2'),
+        url('../font/Gelica-MediumItalic.woff') format('woff'),
+        url('../font/Gelica-MediumItalic.ttf') format('truetype'),
+        url('../font/Gelica-MediumItalic.svg#Gelica-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-Medium.eot');
+    src: url('../font/Gelica-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-Medium.woff2') format('woff2'),
+        url('../font/Gelica-Medium.woff') format('woff'),
+        url('../font/Gelica-Medium.ttf') format('truetype'),
+        url('../font/Gelica-Medium.svg#Gelica-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-Regular.eot');
+    src: url('../font/Gelica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-Regular.woff2') format('woff2'),
+        url('../font/Gelica-Regular.woff') format('woff'),
+        url('../font/Gelica-Regular.ttf') format('truetype'),
+        url('../font/Gelica-Regular.svg#Gelica-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-SemiBoldItalic.eot');
+    src: url('../font/Gelica-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/Gelica-SemiBoldItalic.woff') format('woff'),
+        url('../font/Gelica-SemiBoldItalic.ttf') format('truetype'),
+        url('../font/Gelica-SemiBoldItalic.svg#Gelica-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelica';
+    src: url('../font/Gelica-SemiBold.eot');
+    src: url('../font/Gelica-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gelica-SemiBold.woff2') format('woff2'),
+        url('../font/Gelica-SemiBold.woff') format('woff'),
+        url('../font/Gelica-SemiBold.ttf') format('truetype'),
+        url('../font/Gelica-SemiBold.svg#Gelica-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-Black.eot');
+    src: url('../font/KitRounded-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-Black.woff2') format('woff2'),
+        url('../font/KitRounded-Black.woff') format('woff'),
+        url('../font/KitRounded-Black.ttf') format('truetype'),
+        url('../font/KitRounded-Black.svg#KitRounded-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-Bold.eot');
+    src: url('../font/KitRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-Bold.woff2') format('woff2'),
+        url('../font/KitRounded-Bold.woff') format('woff'),
+        url('../font/KitRounded-Bold.ttf') format('truetype'),
+        url('../font/KitRounded-Bold.svg#KitRounded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-ExtraLight.eot');
+    src: url('../font/KitRounded-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-ExtraLight.woff2') format('woff2'),
+        url('../font/KitRounded-ExtraLight.woff') format('woff'),
+        url('../font/KitRounded-ExtraLight.ttf') format('truetype'),
+        url('../font/KitRounded-ExtraLight.svg#KitRounded-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-Italic.eot');
+    src: url('../font/KitRounded-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-Italic.woff2') format('woff2'),
+        url('../font/KitRounded-Italic.woff') format('woff'),
+        url('../font/KitRounded-Italic.ttf') format('truetype'),
+        url('../font/KitRounded-Italic.svg#KitRounded-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-LightItalic.eot');
+    src: url('../font/KitRounded-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-LightItalic.woff2') format('woff2'),
+        url('../font/KitRounded-LightItalic.woff') format('woff'),
+        url('../font/KitRounded-LightItalic.ttf') format('truetype'),
+        url('../font/KitRounded-LightItalic.svg#KitRounded-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-Light.eot');
+    src: url('../font/KitRounded-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-Light.woff2') format('woff2'),
+        url('../font/KitRounded-Light.woff') format('woff'),
+        url('../font/KitRounded-Light.ttf') format('truetype'),
+        url('../font/KitRounded-Light.svg#KitRounded-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-MediumItalic.eot');
+    src: url('../font/KitRounded-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-MediumItalic.woff2') format('woff2'),
+        url('../font/KitRounded-MediumItalic.woff') format('woff'),
+        url('../font/KitRounded-MediumItalic.ttf') format('truetype'),
+        url('../font/KitRounded-MediumItalic.svg#KitRounded-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-Medium.eot');
+    src: url('../font/KitRounded-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-Medium.woff2') format('woff2'),
+        url('../font/KitRounded-Medium.woff') format('woff'),
+        url('../font/KitRounded-Medium.ttf') format('truetype'),
+        url('../font/KitRounded-Medium.svg#KitRounded-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-Regular.eot');
+    src: url('../font/KitRounded-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-Regular.woff2') format('woff2'),
+        url('../font/KitRounded-Regular.woff') format('woff'),
+        url('../font/KitRounded-Regular.ttf') format('truetype'),
+        url('../font/KitRounded-Regular.svg#KitRounded-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-SemiBoldItalic.eot');
+    src: url('../font/KitRounded-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/KitRounded-SemiBoldItalic.woff') format('woff'),
+        url('../font/KitRounded-SemiBoldItalic.ttf') format('truetype'),
+        url('../font/KitRounded-SemiBoldItalic.svg#KitRounded-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KitRounded';
+    src: url('../font/KitRounded-SemiBold.eot');
+    src: url('../font/KitRounded-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/KitRounded-SemiBold.woff2') format('woff2'),
+        url('../font/KitRounded-SemiBold.woff') format('woff'),
+        url('../font/KitRounded-SemiBold.ttf') format('truetype'),
+        url('../font/KitRounded-SemiBold.svg#KitRounded-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Handlee";
+    src:  url('../font/Handlee-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Fasthand";
+    src:  url('../font/Fasthand-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
